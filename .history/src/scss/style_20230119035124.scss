@@ -1,0 +1,65 @@
+@forward "_ress";
+
+input{
+    border: solid 1px black;
+    width: 200px;
+    height: 32px;
+}
+
+.btn{
+    width: 56px;
+    height: 32px;
+    background-color: aquamarine;
+}
+
+.list{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    border: solid 1px skyblue;
+    padding: 10px 12px;
+    list-style-type: none;
+}
+
+.component{
+    width: 200px;
+    height: 150px;
+    border: solid 5px green;
+    color: green;
+}
+.component.red{
+    width: 200px;
+    height: 150px;
+    border: solid 5px red;
+    color: red;
+}
+
+.mouseInOut{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
+.todoWrap{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    h2{
+        font-size: 26px;
+    }
+}
+
+.addBtn{
+    width: 80px;
+    height: 54px;
+    background-color: skyblue;
+    margin-left: 8px;
+}
+
+.txtArea{
+    width: 300px;
+    height: 54px;
+    margin-top: 24px;
+}

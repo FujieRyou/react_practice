@@ -74,7 +74,6 @@ const animals = ["Dog","Cat","Rat"];
 
     <CheckBoxs />
 
-    <PullDown />
 
     </div>
 

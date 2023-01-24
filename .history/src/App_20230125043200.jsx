@@ -17,7 +17,6 @@ import ConditionalBranch from "./components/ConditionalBranch"
 import Radio from "./components/radio"
 import CheckBox from "./components/checkBox"
 import CheckBoxs from "./components/checkBoxs"
-import PullDown from "./components/pullDown"
 
 
 const App = () =>{
@@ -72,9 +71,8 @@ const animals = ["Dog","Cat","Rat"];
 
     <CheckBox />
 
-    <CheckBoxs />
 
-    <PullDown />
+
 
     </div>
 

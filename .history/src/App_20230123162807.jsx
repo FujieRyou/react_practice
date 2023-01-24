@@ -13,11 +13,6 @@ import InputInterlocking from "./components/inputInterlocking"
 import ShuffleNumArray from "./components/ShuffleNumArray"
 import ArrayDisplay from "./components/arrayListDisplay"
 import ArrayFilter from "./components/arrayFilter"
-import ConditionalBranch from "./components/ConditionalBranch"
-import Radio from "./components/radio"
-import CheckBox from "./components/checkBox"
-import CheckBoxs from "./components/checkBoxs"
-import PullDown from "./components/pullDown"
 
 
 const App = () =>{
@@ -26,7 +21,6 @@ const App = () =>{
     {name:"Hirosi",age:19,from:"東京"},
     {name:"Musasi",age:21,from:"名古屋"},
 ]
-const animals = ["Dog","Cat","Rat"];
 
 
   return(
@@ -64,17 +58,8 @@ const animals = ["Dog","Cat","Rat"];
 
     {/* <ArrayDisplay /> */}
 
-    {/* <ArrayFilter /> */}
+    <ArrayFilter />
 
-    {/* <ConditionalBranch animals={animals} /> */}
-
-    <Radio /> 
-
-    <CheckBox />
-
-    <CheckBoxs />
-
-    <PullDown />
 
     </div>
 

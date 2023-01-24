@@ -11,13 +11,6 @@ import Profile from "./components/profile"
 import ChangeIvent from "./components/ivent"
 import InputInterlocking from "./components/inputInterlocking"
 import ShuffleNumArray from "./components/ShuffleNumArray"
-import ArrayDisplay from "./components/arrayListDisplay"
-import ArrayFilter from "./components/arrayFilter"
-import ConditionalBranch from "./components/ConditionalBranch"
-import Radio from "./components/radio"
-import CheckBox from "./components/checkBox"
-import CheckBoxs from "./components/checkBoxs"
-import PullDown from "./components/pullDown"
 
 
 const App = () =>{
@@ -26,22 +19,21 @@ const App = () =>{
     {name:"Hirosi",age:19,from:"東京"},
     {name:"Musasi",age:21,from:"名古屋"},
 ]
-const animals = ["Dog","Cat","Rat"];
 
 
   return(
     <div>
       {/* todolist作成中 */}
-      {/* <Todolist /> */}
+      <Todolist />
 
       {/* 押すたびにcountがupする(useState練習) */}
-      {/* < CountUp /> */}
+      < CountUp />
 
       {/* 押すたびにON,OFFがきりかわる(useState練習) */}
-      {/* <SwitchFlag /> */}
+      <SwitchFlag />
 
     {/* props練習 */}
-    {/* <PropsPractice color="red"/>
+    <PropsPractice color="red"/>
     <PropsPractice num={123}/>
 
     <Profile 
@@ -60,21 +52,7 @@ const animals = ["Dog","Cat","Rat"];
 
     <InputInterlocking />
 
-    <ShuffleNumArray /> */}
-
-    {/* <ArrayDisplay /> */}
-
-    {/* <ArrayFilter /> */}
-
-    {/* <ConditionalBranch animals={animals} /> */}
-
-    <Radio /> 
-
-    <CheckBox />
-
-    <CheckBoxs />
-
-    <PullDown />
+    <ShuffleNumArray />
 
     </div>
 

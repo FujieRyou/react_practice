@@ -1,0 +1,1 @@
+const animals = ["Dog","Cat","Rat"];

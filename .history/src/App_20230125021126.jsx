@@ -14,10 +14,6 @@ import ShuffleNumArray from "./components/ShuffleNumArray"
 import ArrayDisplay from "./components/arrayListDisplay"
 import ArrayFilter from "./components/arrayFilter"
 import ConditionalBranch from "./components/ConditionalBranch"
-import Radio from "./components/radio"
-import CheckBox from "./components/checkBox"
-import CheckBoxs from "./components/checkBoxs"
-import PullDown from "./components/pullDown"
 
 
 const App = () =>{
@@ -70,11 +66,6 @@ const animals = ["Dog","Cat","Rat"];
 
     <Radio /> 
 
-    <CheckBox />
-
-    <CheckBoxs />
-
-    <PullDown />
 
     </div>
 
